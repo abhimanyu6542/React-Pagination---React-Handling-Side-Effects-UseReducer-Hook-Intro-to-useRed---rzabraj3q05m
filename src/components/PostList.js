@@ -20,10 +20,9 @@ const PostList = () => {
                             />
                         )
                     })}
+                    <PaginationButtonsList />
                 </>
             )}
-
-            <PaginationButtonsList />
         </>
     )
 }
